@@ -4,8 +4,7 @@
 template <typename ValueType> class Client
 {
   public:
-    typedef bool HasValue;
-
+  
   public:
     void begin_transaction();
     void end_transaction();
